@@ -8,11 +8,9 @@
 
 `jev` is a single [justfile](https://just.systems) that asks [TypeSafe's Jev](https://docs.typesafe.ai/concepts/system-one) model a question about whatever you give it and prints one line you can act on.
 
-```
-$ curl -s "https://api.open-meteo.com/v1/forecast?latitude=50.08&longitude=14.44&hourly=precipitation_probability&forecast_days=1" \
-    | just yesno - "Should I take an umbrella today?"
-yes (87%)
-```
+<p align="center">
+  <img src="assets/teaser.png" alt="Three shell commands piping weather, a git commit and a ticket into just, each answered with one line" width="100%">
+</p>
 
 Jev is not a chatbot. It never writes prose. It answers exactly three kinds of question, each in a few hundred milliseconds for a few thousandths of a cent:
 
