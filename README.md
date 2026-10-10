@@ -213,7 +213,7 @@ mood: 0.93 / 2  ≈ annoyed
 
 ## Philosophy
 
-Jev gives shell scripts a small decision primitive: hand it text or JSON, ask one typed question, get one typed answer. A yes/no gates a command, a choice selects a route, a score ranks items. Because the result is one line, Jev sits beside `curl`, `jq`, loops, pipes and `case` statements, and the workflow stays visible and made of the Unix tools you already use.
+Jev gives shell scripts a small decision primitive, a "smart if": hand it text or JSON, ask one typed question, get one typed answer. A yes/no gates a command, a choice selects a route, a score ranks items. Because the result is one line, Jev sits beside `curl`, `jq`, loops, pipes and `case` statements, and the workflow stays visible and made of the Unix tools you already use.
 
 It is deliberately not a chatbot. If you need a paragraph, use a language model. If you need a decision, ask Jev.
 
